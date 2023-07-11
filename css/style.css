@@ -67,7 +67,7 @@ article {
     margin: 100px 500px 100px 500px;
     width: 30%;
     justify-content: center;
-   grid-template-rows: auto;
+    grid-template-rows: auto;
 }
 
 .img1 {
@@ -76,10 +76,12 @@ article {
     }
 
 .img2 {
-    width: 400px;
-    height: 200px;
-    padding-left: 500px;
-    padding-right: 500px;
+    
+    margin: 100px 500px 100px 500px;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    grid-template-rows: auto;
 }
 
 .img3 {
@@ -129,7 +131,9 @@ a {
 
 .logo {
     margin: 100px 500px 100px 500px;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .grid {
@@ -163,7 +167,7 @@ a {
 
 .grid-item2 {
     display: grid;
-    justify-content: center;
+    justify-content: right;
     align-items: right;
     text-align: right;
     grid-template-columns: 3/4;
@@ -172,7 +176,7 @@ a {
 
 .grid-item3 {
     display: grid;
-    justify-content: center;
+    justify-content: right;
     align-items: right;
     text-align: right;
     grid-template-columns: 3/4;
@@ -181,7 +185,7 @@ a {
 
 .grid-item4 {
     display: grid;
-    justify-content: center;
+    justify-content: right;
     align-items: right;
     text-align: right;
     grid-template-columns: 3/4;
